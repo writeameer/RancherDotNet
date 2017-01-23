@@ -8,11 +8,20 @@
     <owners>Ameer Deen</owners>
     <licenseUrl>https://github.com/writeameer/RancherDotNet/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/writeameer/RancherDotNet</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A very rought .NET client for Rancher (rancher.com)</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Test release</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Rancher .NET</tags>
+    <dependencies>
+        <group targetFramework=".NETStandard1.6">
+            <dependency id="Newtonsoft.Json" version="9.0.1" />
+            <dependency id="System.Net.Http" version="4.3.0" />
+        </group>
+    </dependencies>
   </metadata>
+      <files>
+        <file src="bin\release\**" target="lib" />
+    </files>
+
 </package>

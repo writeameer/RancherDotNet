@@ -1,1 +1,3 @@
-nuget pack RightScale.netClient.coreclr.nuspec -Symbols -Exclude "*.pdb"
+nuget pack RancherDotNet.nuspec -Symbols -Exclude "*.pdb"
+
+#nuget push RancherDotNet.nupkg -source nuget.org
